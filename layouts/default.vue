@@ -11,5 +11,4 @@
 </template>
 
 <script setup lang="ts">
-// 組件會自動導入，不需要手動 import
 </script>

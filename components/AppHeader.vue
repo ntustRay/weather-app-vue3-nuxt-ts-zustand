@@ -9,5 +9,5 @@ import { useRoute } from 'vue-router'
 import { computed } from 'vue'
 
 const route = useRoute()
-const title = computed(() => route.path === '/' ? '天氣小部件' : '待辦事項')
+const title = computed(() => route.path === '/' ? 'Weather App' : 'ToDo List')
 </script>
