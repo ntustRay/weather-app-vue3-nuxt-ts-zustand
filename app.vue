@@ -5,7 +5,6 @@
 </template>
 
 <script setup lang="ts">
-// 不需要額外的邏輯
 </script>
 
 <style>

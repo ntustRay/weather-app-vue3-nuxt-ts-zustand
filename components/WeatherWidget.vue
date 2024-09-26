@@ -12,12 +12,15 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
+interface Weather {
+  temperature: number;
+  description: string;
+}
+
 const city = ref('台北')
-const weather = ref(null)
+const weather = ref<Weather | null>(null)
 
 const fetchWeather = async () => {
-  // 這裡應該使用實際的天氣 API
-  // 以下為模擬數據
   await new Promise(resolve => setTimeout(resolve, 1000))
   weather.value = {
     temperature: 25,

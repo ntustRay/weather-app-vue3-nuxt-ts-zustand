@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { useTodoStore } from '~/composables/useTodoStore'
+import { useTodoStore } from '../composables/useTodoStore'
 
 // 使用 zustand-vue 的 store
 const todoStore = useTodoStore()
